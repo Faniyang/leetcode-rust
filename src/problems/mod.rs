@@ -3,3 +3,4 @@ pub mod q_0002_add_two_number;
 pub mod q_0003_longest_substring_without_repeating_characters;
 pub mod q_0004_median_of_two_sorted_arrays;
 pub mod q_0005_longest_palindromic_substring;
+pub mod q_0006_zigzag_conversion;
