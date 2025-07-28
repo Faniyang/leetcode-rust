@@ -75,7 +75,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_add_two_numbers() {
+    fn test_2() {
         assert_eq!(
             to_linked_list(vec![7, 0, 8]),
             Solution::add_two_numbers(to_linked_list(vec![2, 4, 3]), to_linked_list(vec![5, 6, 4]))

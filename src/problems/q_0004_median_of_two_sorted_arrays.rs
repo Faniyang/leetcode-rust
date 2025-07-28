@@ -70,7 +70,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_find_median_sorted_arrays() {
+    fn test_4() {
         assert_eq!(
             2.0,
             Solution::find_median_sorted_arrays(vec![1, 3], vec![2])

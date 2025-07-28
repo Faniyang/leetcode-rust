@@ -63,7 +63,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_convert() {
+    fn test_6() {
         assert_eq!(
             "PAHNAPLSIIGYIR",
             Solution::convert("PAYPALISHIRING".to_string(), 3)
