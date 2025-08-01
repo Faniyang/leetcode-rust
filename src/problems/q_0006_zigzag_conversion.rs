@@ -1,34 +1,10 @@
-/**
- * 6. Zigzag Conversion - Medium
- *
- * The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
- *
- * P   A   H   N
- * A P L S I I G
- * Y   I   R
- *
- * And then read line by line: "PAHNAPLSIIGYIR"
- *
- * Write the code that will take a string and make this conversion given a number of rows:
- * string convert(string s, int numRows);
- *
- * Example:
- *
- * Input: s = "PAYPALISHIRING", numRows = 3
- * Output: "PAHNAPLSIIGYIR"
- * Explanation:
- * P   A   H   N
- * A P L S I I G
- * Y   I   R
- *
- */
+// 6. Zigzag Conversion - Medium
 
 /**
  * 本题需要定义一个 Vec<String> 类型的动态字符数组
  * 根据给定的行数，将字符按 Zigzag 规则逐行添加到对应的行中
  * 当遍历到第一行或最后一行需要转换方向
  * 最后将所得的动态字符数组拼接起来并返回
- *
  */
 
 pub struct Solution;

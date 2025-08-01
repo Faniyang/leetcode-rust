@@ -1,26 +1,10 @@
-/**
- * 2. Add Two Numbers - Medium
- *
- * You are given two non-empty linked lists representing two non-negative integers.
- * The digits are stored in reverse order, and each of their nodes contains a single digit.
- * Add the two numbers and return the sum as a linked list.
- *
- * You may assume the two numbers do not contain any leading zero, except the number 0 itself.
- *
- * Example:
- *
- * Input: l1 = [2,4,3], l2 = [5,6,4]
- * Output: [7,0,8]
- * Explanation: 342 + 465 = 807.
- *
- */
+// 2. Add Two Numbers - Medium
 
 /**
  * 初始化头节点 dummy_head，以及指针节点 current 指向 dummy_head、定义变量 carry 表示进位
  * 循环遍历 l1 和 l2 并取出当前位的值（若为空则置为 0 ）
  * 计算当前位数之和 sum，并记录进位 carry，之后取余并创建新节点，继续移动链表指针
- *  
-*/
+ */
 
 pub struct Solution;
 

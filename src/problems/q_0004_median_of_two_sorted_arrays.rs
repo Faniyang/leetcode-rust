@@ -1,18 +1,4 @@
-/**
- * 4. Median of Two Sorted Arrays - Hard
- *
- * Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
- *
- * The overall run time complexity should be O(log (m+n)).
- *
- *
- * Example:
- *
- * Input: nums1 = [1,2], nums2 = [3,4]
- * Output: 2.50000
- * Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
- *
- */
+// 4. Median of Two Sorted Arrays - Hard
 
 /**
  * 在较短的数组上二分查找分界点 i, 另一个数组的分界点 (m + n + 1) / 2 - i
@@ -21,7 +7,6 @@
  *
  * 当找到满足条件的分界点 i 和 j 后：
  * 若总长度为奇数，中位数则是左半部分的最大值；若总长度为偶数，中位数则是左最大值和右最小值的平均值
- *
  */
 
 pub struct Solution;

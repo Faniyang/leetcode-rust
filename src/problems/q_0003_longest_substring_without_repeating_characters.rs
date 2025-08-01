@@ -1,23 +1,9 @@
-/**
- * 3. Longest Substring Without Repeating Characters - Medium
- *
- * Given a string s, find the length of the longest substring without duplicate characters.
- *
- * Example:
- *
- * Input: s = "pwwkew"
- * Output: 3
- * Explanation: The answer is "wke", with the length of 3.
- *
- * Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
- *
- */
+// 3. Longest Substring Without Repeating Characters - Medium
 
 /**
  * 遍历字符串 s, 使用滑动窗口 [start..end]
  * 用 HashMap 记录字符上次出现的位置，遇到重复字符时更新 start
  * 每次迭代计算并更新 max_len
- *
  */
 
 pub struct Solution;

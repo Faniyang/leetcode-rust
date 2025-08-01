@@ -1,17 +1,4 @@
-/**
- * 7. Reverse Integer - Medium
- *
- * Given a signed 32-bit integer x, return x with its digits reversed.
- * If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.
- *
- * Assume the environment does not allow you to store 64-bit integers (signed or unsigned).
- *
- * Example
- *
- * Input: x = 123
- * Output: 321
- *
- */
+// 7. Reverse Integer - Medium
 
 /**
  * 通过对传入的整数进行逐位提取，用 %10 获得当前位，用 /10 去掉当前位

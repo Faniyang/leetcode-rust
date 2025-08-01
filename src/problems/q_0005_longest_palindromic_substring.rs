@@ -1,15 +1,4 @@
-/**
- * 5. Longest Palindromic Substring - Medium
- *
- * Given a string s, return the longest palindromic substring in s.
- *
- * Example:
- *
- * Input: s = "babad"
- * Output: "bab"
- * Explanation: "aba" is also a valid answer.
- *
- */
+// 5. Longest Palindromic Substring - Medium
 
 /**
  * 回文的特性是从中心到两边对称
