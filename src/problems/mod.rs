@@ -11,3 +11,4 @@ pub mod q_0011_container_with_most_water;
 pub mod q_0012_integer_to_roman;
 pub mod q_0013_roman_to_integer;
 pub mod q_0014_longest_common_prefix;
+pub mod q_0020_valid_parentheses;
